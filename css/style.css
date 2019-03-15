@@ -237,16 +237,18 @@ header{
 	background: #43b0f1;
 	color: #1e3d59;
 	padding: 4rem 3%;
+	margin-top: -1px;
 }
 
 .problems__big{
-	font: 10rem "GillSansBold";
+	font: 10rem/1.4 "GillSansBold";
 	margin-bottom: 15rem;
 }
 
 .problems__big span{
 	background: url(../img/bottle.png) no-repeat center top;
 	background-size: 16rem 8.4rem;
+	padding: .2rem;
 }
 
 .problems__title{
@@ -335,8 +337,8 @@ header{
 	}
 
 	.zero{
-		background: -moz-linear-gradient(top, #d0efee 1%, #d0efee 45%, #abe3e5 45%, #abe3e5 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, #d0efee 1%,#d0efee 45%,#abe3e5 45%,#abe3e5 100%); /* Chrome10-25,Safari5.1-6 */
+		background: -moz-linear-gradient(top, #d0efee 1%, #d0efee 45%, #abe3e5 45%, #abe3e5 100%);
+		background: -webkit-linear-gradient(top, #d0efee 1%,#d0efee 45%,#abe3e5 45%,#abe3e5 100%); 
 		background: linear-gradient(to bottom, #d0efee 1%,#d0efee 45%,#abe3e5 45%,#abe3e5 100%);
 	}
 
@@ -408,15 +410,17 @@ header{
 
 	.soap__form form input{
 		min-width: 270px;
-	}
-
+		width: 100%;
+		max-width: 300px;
+	}	
+	
 	.zero__headline{
 		font-size: 3.5rem;
 	}
 
 	.zero{
-		background: -moz-linear-gradient(top, #d0efee 1%, #d0efee 60%, #abe3e5 60%, #abe3e5 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, #d0efee 1%,#d0efee 60%,#abe3e5 60%,#abe3e5 100%); /* Chrome10-25,Safari5.1-6 */
+		background: -moz-linear-gradient(top, #d0efee 1%, #d0efee 60%, #abe3e5 60%, #abe3e5 100%);
+		background: -webkit-linear-gradient(top, #d0efee 1%,#d0efee 60%,#abe3e5 60%,#abe3e5 100%);
 		background: linear-gradient(to bottom, #d0efee 1%,#d0efee 60%,#abe3e5 60%,#abe3e5 100%);
 	}
 
@@ -426,5 +430,9 @@ header{
 
 	.problems__big{
 		font-size: 6rem;
+	}
+
+	.problems__big span{
+		background-size: 14rem 7.4rem;
 	}
 }
